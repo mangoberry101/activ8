@@ -1,0 +1,242 @@
+<script src="java.js"></script>
+<link rel="stylesheet" type = "text/css" href="style.css">
+<div class="main">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <h1> Profile </h1>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
+  <a href="home.html" class="active">Home</a>
+  <a href="profile.html">Profile</a>
+  <a href="food.html">Food</a>
+  <a href="education.html">Education</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+
+  </a>
+</div>
+    <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+</style>
+</head>
+<body>
+
+
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <h2 style="text-align:center">Sign Up for Activ8!</h2>
+
+        <div class="col">
+          <div class="hide-md-lg">
+
+          </div>
+  <div class="newcol">
+  <h2> <style="text-align:center"> </h2>
+          <input type="text" name="Name" placeholder="Name*" required>
+          <input type="email" name="Parent's email" placeholder="Parent's email">
+          <input type="int" name="Birthday" placeholder="Date of Birth (DD/MM/YYYY)">
+          <input type="zip" name="Zip Code" placeholder="Zip Code (if you would like to join a community with your parent’s consent)">
+          <input type="letter" name="Sex" placeholder="Gender (Girl/Boy/Other)">
+          <input type="int" name="Height" placeholder="Height (ft, in)">
+          <input type="int" name="Weight" placeholder="Weight (lb, oz)">
+          <input type="username" name="username" placeholder="Username*" required>
+          <input type="password" name="password" placeholder="Password*" required>
+
+
+
+  <div class="select-sim" id="select-color">
+    <div class="options">
+      <div class="option">
+        <input type="radio" name="color" value="" id="color-" checked required />
+      </br>
+        <p>Select a profile picture</p> (required)
+
+    </br>
+
+</br>
+      <div>
+        <label for="color-">
+          <p><img src="https://drive.google.com/uc?id=1fKlrcOwqh7XtX61vSzUYyimkyejfPIsB" alt="" width="125" height="100" /></p>
+          <p>Boy</p>
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" name="color" value="red" id="color-red" />
+        <label for="color-red">
+          <p><img src="https://drive.google.com/uc?id=1Eoa-Y_VYWCyRSVVvzZm9_aiggP6rObDv" alt=""  width="125" height="100" /></p> <p>Girl</p>
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" name="color" value="green" id="color-green" />
+        <label for="color-green">
+          <p><img src="https://drive.google.com/uc?id=1yf_zxM9dXh9pNYOOt81pii4FL_-RrhNM" alt="" width="125" height="100"/></p>
+          <p>Fish</p>
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" name="color" value="blue" id="color-blue" />
+        <label for="color-blue">
+          <p><img src="https://drive.google.com/uc?id=1uC5P7a-PmbnEv7UplH4HOrpwc9HPU_Pw" alt="" width="125" height="100"/></p> <p>Llama</p>
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" name="color" value="pink" id="color-pink" />
+        <label for="color-pink">
+          <p><img src="https://drive.google.com/uc?id=1OxhUlapQWGSedrdQOHLchxOXRwZyh3L5" alt="" width="125" height="100"/> </p>
+          <p>Cat</p> 
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" name="color" value="pink" id="color-pink" />
+        <label for="color-pink">
+          <p><img src="https://drive.google.com/uc?id=1NozWzz_oVlp2m9VEQBR_3GpRRpHuUlBr" alt="" width="125" height="100"/></p>
+          <p>Whale</p>
+        </label>
+      </div>
+    </div>
+       <a href="log_in.html" style="color:green" class="newcol">Sign up!</a>
+  </div>
+
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+  </body>
+  </html>
+</head>
