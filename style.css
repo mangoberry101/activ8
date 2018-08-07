@@ -515,7 +515,7 @@ select#profile option[value="fish"] {
 }
 
 img.kidex {
-  width: 100%;
+  width: auto;
   padding-top: 20px;
 }
 
@@ -545,7 +545,7 @@ img.kidex {
 }
 
 img.nutri {
-  width: 100%;
+  width: auto;
   padding-top: 20px;
 }
 
@@ -565,7 +565,7 @@ img.nutri {
 }
 
 img.linksetc {
-  width: 100%;
+  width: auto;
   padding-top: 20px;
 }
 
@@ -579,7 +579,7 @@ img.linksetc {
   color: white;
   position: relative;
   bottom: 170px;
-  left: 600px;
+  left: 650px;
   font-size: 50px;
   font-family: "Economica";
 }
@@ -588,7 +588,7 @@ img.linksetc {
   color: white;
   position: relative;
   bottom: 320px;
-  left: 600px;
+  left: 650px;
   font-size: 50px;
   font-family: "Economica";
 }
@@ -597,7 +597,7 @@ img.linksetc {
   color: white;
   position: relative;
   bottom: 470px;
-  left: 600px;
+  left: 650px;
   font-size: 50px;
   font-family: "Economica";
 }
