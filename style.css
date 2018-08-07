@@ -578,8 +578,8 @@ img.linksetc {
 #clickclick {
   color: white;
   position: relative;
-  bottom: 260px;
-  left: 650px;
+  bottom: 255px;
+  left: 550px;
   font-size: 50px;
   font-family: "Economica";
 }
@@ -588,7 +588,7 @@ img.linksetc {
   color: white;
   position: relative;
   bottom: 380px;
-  left: 650px;
+  left: 550px;
   font-size: 50px;
   font-family: "Economica";
 }
@@ -597,7 +597,7 @@ img.linksetc {
   color: white;
   position: relative;
   bottom: 530px;
-  left: 650px;
+  left: 550px;
   font-size: 50px;
   font-family: "Economica";
 }
