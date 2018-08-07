@@ -1,0 +1,353 @@
+h1 {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Economica";
+  background: #008b8b;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.suggesting {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 250;
+  height: 200;
+  position: relative;
+  left: 605px;
+  bottom: 450px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.suggesting:hover {
+  background-color: #0097a7;
+  color: white;
+  border: 10px solid #ba002f;
+}
+.suggesting2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 250;
+  height: 170;
+  position: relative;
+  left: 605px;
+  bottom: 450px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.suggesting2:hover {
+  background-color: #0097a7;
+  color: white;
+  border: 10px solid #ba002f;
+}
+
+#log {
+  background-color: #9d74f7;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 30px;
+  padding-bottom: 300px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  right: 250px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+#recipes {
+  background-color: #9d74f7;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 300px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 400px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+#nearme {
+  background-color: #9d74f7;
+  padding-left: 80px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 300px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 200px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+img.monday {
+  width: 160px;
+  position: relative;
+  right: 755px;
+  top: 140px;
+}
+
+img.health {
+  width: 160px;
+  position: relative;
+  bottom: 280px;
+  left: 465px;
+}
+
+img.location {
+  width: 160px;
+  position: relative;
+  bottom: 250px;
+  left: 660px;
+}
+
+#homehome {
+  font-family: 'Economica';
+  font-size: 20px;
+  color: white;
+  background-color: #008b8b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  right: 828px;
+  bottom: 100px;
+}
+
+#map {
+  width: 400px;
+  height: 400px;
+  background: yellow;
+}
+
+.daily {
+  margin-right: 50px;
+}
+.near {
+  margin-right: 50px;
+}
+
+.translatepage {
+  font-family: "Economica";
+  font-size: 18px;
+  position: relative;
+  top: 13px;
+}
+
+.translatepage2 {
+  font-family: "Economica";
+  font-size: 18px;
+  position: relative;
+  top: 13px;
+  right: 80px;
+}
+
+.translatepage3 {
+  font-family: "Economica";
+  font-size: 18px;
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+
+#google_translate_element {
+  position: relative;
+  bottom: 10px;
+  left: 120px;
+}
+
+#google_translate_element2 {
+  position: relative;
+  bottom: 10px;
+  left: 60px;
+}
+
+#google_translate_element3 {
+  position: relative;
+  bottom: 13px;
+  left: 122px;
+}
+
+.contactForm {
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 450px;
+  overflow: hidden;
+  /*SUCESS STYLES*/
+}
+.contactForm .formHeader {
+  background: #008b8b;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  /*TRANSITION*/
+  transition: all 0.5s ease;
+}
+.contactForm .formHeader h1 {
+  line-height: 1em;
+}
+.contactForm .formBody {
+  background: #fff;
+  padding: 20px 12px;
+  overflow: hidden;
+  /*TRANSITION*/
+  transition: all 0.2s ease;
+}
+.contactForm .inputContainer {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 5px;
+  overflow: hidden;
+  background: transparent;
+}
+.contactForm .inputContainer .message {
+  color: #ff5c5c;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  margin: 0;
+  line-height: 2.5em;
+  text-align: center;
+  overflow: hidden;
+  /*TRANSITION*/
+  transition: all 0.1s ease;
+}
+.contactForm .inputContainer label,
+.contactForm .inputContainer input,
+.contactForm .inputContainer textarea {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1em;
+  border: none;
+  font: inherit;
+}
+.contactForm .inputContainer label {
+  display: inline-block;
+  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 1.75em;
+  border-right: 1px solid #ccc;
+  /*POSITION*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.contactForm .inputContainer textarea,
+.contactForm .inputContainer input {
+  width: 100%;
+  max-width: 100%;
+}
+.contactForm .inputContainer textarea {
+  margin-bottom: -5px;
+}
+.contactForm .inputContainer input {
+  padding-left: 50px;
+}
+.contactForm .submitBtn {
+  background: #008b8b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font: inherit;
+  padding: 10px 18px;
+  margin-top: 10px;
+  float: right;
+  width: auto;
+  /*TRANSITION*/
+  transition: background 0.5s ease;
+}
+.contactForm .submitBtn:hover {
+  background: purple;
+}
+.contactForm.success {
+  overflow: hidden;
+}
+.contactForm.success .formHeader {
+  background: #0a8754;
+  font-size: 0.75em;
+}
+.contactForm.success .formBody {
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.contactForm.success .formBody form {
+  /*TRANSITION*/
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.contactForm .inputContainer.success:after {
+  font: 1.25em/2em FontAwesome;
+  color: maroon;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  content: "";
+}
+.contactForm .inputContainer.success label {
+  background: #82e682;
+}
+.contactForm .inputContainer.success input,
+.contactForm .inputContainer.success textarea {
+  color: #0a8754;
+}
+.contactForm .inputContainer.error .message {
+  width: 100%;
+}
+.contactForm .inputContainer.error:after {
+  font: 1.25em/2em FontAwesome;
+  color: #ff5c5c;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  content: "";
+}
+.contactForm .inputContainer.error label {
+  background: #ff5c5c;
+}
+.contactForm .inputContainer.error input,
+.contactForm .inputContainer.error textarea {
+  color: #ff5c5c;
+}
+
+#demo {
+  font-family: "Economica";
+  font-size: 20px;
+}
+
+#home1 {
+  font-family: 'Economica';
+  font-size: 20px;
+  color: white;
+  background-color: #008b8b;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#home2 {
+  font-family: 'Economica';
+  font-size: 20px;
+  color: white;
+  background-color: #008b8b;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 10px;
+}
